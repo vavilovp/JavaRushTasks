@@ -7,10 +7,10 @@ import java.util.Map;
 import java.util.WeakHashMap;
 
 public class Cache<K, V> {
-    private WeakHashMap<K, V> cache = new WeakHashMap<K, V>();   //TODO add your code here
+    private WeakHashMap<K, V> cache = new WeakHashMap<K, V>();   //add your code here
 
     public V getByKey(K key, Class<V> clazz) throws Exception {
-        //TODO add your code here
+        //add your code here
         V returnValue;
         returnValue = cache.get(key);
         if(returnValue==null){
@@ -22,7 +22,7 @@ public class Cache<K, V> {
     }
 
     public boolean put(V obj) {
-        //TODO add your code here
+        //add your code here
         boolean success=true;
         K key=null;
         try {
