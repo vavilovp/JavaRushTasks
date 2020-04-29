@@ -22,7 +22,7 @@ public class Cache<K, V> {
     }
 
     public boolean put(V obj) {
-        //add your code here or not )
+        //add your code here or not ) ))
         boolean success=true;
         K key=null;
         try {
